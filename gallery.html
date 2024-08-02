@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Gallery</title>
+    <link rel="stylesheet" href="css/gallery-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Linking gallery.js with defer -->
+    <script src="js/gallery.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="barkboard.html">Bark!</a></li>
+            </ul>
+        </nav>
+        <h1>Pet Gallery</h1>
+        <p>Click on a pet to see more details!</p>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="card"
+                onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwB0-XRkscNRK--NjS0EJLzYgSoVtR1rEtDw&s')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwB0-XRkscNRK--NjS0EJLzYgSoVtR1rEtDw&s"
+                    alt="Porky the dog running out of tunnel">
+                <div class="card-info">
+                    <h3>Porky</h3>
+                </div>
+            </div>
+            <div class="card"
+                onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwX1fTiT80trgokp6p5FUTjhu-BEVSef-hNg&s')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwX1fTiT80trgokp6p5FUTjhu-BEVSef-hNg&s"
+                    alt="Ms. Pam the dog jumping a hurdle">
+                <div class="card-info">
+                    <h3>Ms. Pam</h3>
+                </div>
+            </div>
+            <div class="card"
+                onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSat7-WpDepUNX0FinXRXhYUQtrEvqcxjOALQ&s')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSat7-WpDepUNX0FinXRXhYUQtrEvqcxjOALQ&s"
+                    alt="Chuckle-Bunny the dog with swimming goggles">
+                <div class="card-info">
+                    <h3>Chuckle-Bunny</h3>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">Close</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pet Olympics. Per Scholas Cohort RTT 63 | All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>

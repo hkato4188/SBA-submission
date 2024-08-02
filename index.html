@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Olympics Welcome</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Internal CSS for Pet Olympics */
+
+
+        .intro {
+            margin-bottom: 2em;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1em;
+        }
+
+        .sign-up {
+            background-color: white;
+            padding: 2em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .sign-up form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .sign-up label {
+            margin-top: 1em;
+        }
+
+        .sign-up input,
+        .sign-up select,
+        .sign-up button {
+            margin-top: 0.5em;
+            padding: 0.5em;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .sign-up button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 1em;
+        }
+
+        .sign-up button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">Contact</a></li>
+                <li><a href="barkboard.html">Bark!</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to the Pet Olympics!</h1>
+        <p>Join us for a fun-filled event celebrating our furry friends!</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>About the Pet Olympics</h2>
+            <p>The Pet Olympics is an annual event where pets of all kinds compete in various fun and exciting
+                challenges. From agility courses to talent shows, there's something for every pet to enjoy!</p>
+            <img src="data:image/jpeg;base64,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"
+                alt="Pet Olympics">
+        </section>
+
+        <section class="sign-up">
+            <h2>Sign Up Your Pet</h2>
+            <form id="sign-up-form">
+                <label for="pet-name">Pet's Name:</label>
+                <input type="text" id="pet-name" name="pet-name" required>
+
+                <label for="owner-name">Owner's Name:</label>
+                <input type="text" id="owner-name" name="owner-name" required>
+
+                <label for="email">Email:</label>
+                <!-- Implements regex email validation through type="email" test it out! -->
+                <input type="email" id="email" name="email" required>
+
+                <label for="event">Select Event:</label>
+                <select id="event" name="event" required>
+                    <option value="agility">Agility Course</option>
+                    <option value="talent">Talent Show</option>
+                    <option value="obedience">Obedience</option>
+                </select>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pet Olympics. Per Scholas Cohort RTT 63 | All rights reserved.</p>
+    </footer>
+
+    <!-- Links to index.js file located in js folder -->
+    <!-- Demonstrates DOMContentLoaded event listener in index.js -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
