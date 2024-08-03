@@ -26,11 +26,11 @@ To run this website locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/pet-olympics.git
+    git clone https://github.com/hkato4188/SBA-submission.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd pet-olympics
+    cd SBA-submission
     ```
 3. Open `index.html` in your preferred web browser:
     ```sh
@@ -39,14 +39,14 @@ To run this website locally, follow these steps:
 
 ## Usage
 
-This website is designed to provide an engaging and informative experience for visitors interested in the Pet Olympics. Navigate through the different pages using the navigation menu to explore various sections of the site.
+This website is designed to provide an engaging and informative experience for visitors interested in learning vanilla HTML, JS, and CSS... and also the Pet Olympics. Navigate through the different pages using the navigation menu to explore various sections of the site.
 
 ## Features
 
 - **Home Page:** A welcoming page introducing the Pet Olympics.
 - **Gallery Page:** A collection of pet images displayed in a grid format, with a modal effect for enlarging images.
 - **About Page:** Information about the Pet Olympics and its mission.
-- **Contact Page:** A form for users to get in touch via email.
+- **Bark! Page:** A form for users to cheer on their favorite furry friend.
 - **Medal Table:** A table displaying the medal standings for various countries.
 
 ## Pages
@@ -63,13 +63,13 @@ The gallery page showcases images of participating pets. Clicking on an image op
 
 The about page describes the Pet Olympics, emphasizing how adorable and great the event is.
 
-### Contact Page
+### Bark! Page
 
-The contact page includes a form with a mailto action, allowing users to send emails directly from the website.
+The Bark! page includes a form to enter posts on the cheer board, allowing users to send encouragement directly to all the good boys and good girls! 🐶🐱
 
 ### Medal Table
 
-The medal table page displays the standings of countries participating in the Pet Olympics, including counts of gold, silver, and bronze medals.
+The medal table page displays the standings of pets participating in the Pet Olympics, including counts of gold, silver, and bronze medals.
 
 ## Technologies Used
 
@@ -92,7 +92,8 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is for educational purposes only. 
+Let's learn!
 
 ---
 
