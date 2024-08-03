@@ -3,7 +3,7 @@ const nameInput = document.getElementById("nameInput")
 const messageInput = document.getElementById("messageInput")
 const chatSubmit = document.getElementById("chatSubmit")
 
-submitButton.addEventListener('click', () => {
+chatSubmit.addEventListener('click', () => {
     handleMessageSubmit(nameInput, messageInput);
     console.log('ive been clicked')
 });
